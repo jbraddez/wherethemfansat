@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    color: #eee;
+}
+
+.logo{
+    font-family: "Archivo Black", sans-serif;
+    text-decoration: none;
+    font-size: 1.5rem;
+    display: block;
+    margin: 1rem;
+    width: fit-content;
+}
+
+main{
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+}
+
+body{
+    background: #111;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    height: 100svh;
+}
+
+button{
+    padding: 0.5rem 1rem;
+    border-radius: 500px;
+    border: 1px solid #eee;
+    background: transparent;
+    backdrop-filter: blur(5px) brightness(0.3);
+    margin: 1rem 0;
+    cursor: pointer;
+    transition: 200ms;
+}
+
+button:hover{
+    scale: 1.05;
+    box-shadow: 0 5px 15px #0006;
+}
+
+.video-wrapper{
+    position: fixed;
+    top: 0;
+    left: 50%;
+    z-index: -1;
+    min-width: 100vw;
+    min-height: 100lvh;
+    aspect-ratio: 16/9;
+    transform: translate(-50%,-60px);
+    filter: blur(5px) brightness(0.4);
+}
+
+iframe{
+    width: 100%;
+    height: calc(100% + 120px);
+}
+
+img{
+    height: 1rem;
+}
+
+footer{
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 4rem;
+    width: 100%;
+}
+
+footer a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.25rem;
+    border: 1px solid #eee;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
