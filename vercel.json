@@ -1,0 +1,11 @@
+{
+    "redirects": [
+      {
+        "source": "/(.*)",
+        "has": [{ "type": "host", "value": "www.wherethemfansatweekend.com" }],
+        "destination": "https://wherethemfansatweekend.com/$1",
+        "permanent": true
+      }
+    ]
+  }
+  
